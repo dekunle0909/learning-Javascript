@@ -1,0 +1,42 @@
+body{
+    background-color: #eee;
+}
+/* #message{
+    max-width: 400px;
+    background-color: #ddaaaa;
+    border: 1px solid #ff7777;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: bold;
+    color: #444;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#message.show{
+    animation: fadeIn 1s forwards;
+    opacity: 1;
+
+      -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+} */
+    
+#color-change{
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    margin: 30px auto;
+    border: #000 solid 2px;
+    border-radius: 50%;
+
+     -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}

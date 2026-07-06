@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form id="my-form" name="myform" action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label>Hobbies</label> <br>
+        <input type="checkbox"  name="hobbies" value="reading">
+        <label for="hobby1">Reading</label> <br>
+        <input type="checkbox"  name="hobbies" value="swimming">
+        <label for="hobby2">Swimming</label> <br>
+        <input type="checkbox"  name="hobbies" value="coding">
+        <label for="hobby3">Coding</label> <br><br>
+
+        <label for="color">color:</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="g reen">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <div id="message" style="color: green;"></div>
+    
+    <script src="form.js"></script>
+</body>
+</html>
